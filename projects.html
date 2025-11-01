@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | My Portfolio</title>
+
+    <!-- ✅ SEO Meta Tags -->
+    <meta name="description"
+        content="Explore my latest web development projects including front-end, React, and UI/UX designs. Each project showcases my expertise in responsive design and modern web technologies." />
+    <meta name="keywords"
+        content="Front-end Developer, React, Portfolio, Web Projects, UI UX, HTML CSS JavaScript, Bootstrap, Responsive Design" />
+    <meta name="author" content="Adel Elgyoushy" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- ✅ Open Graph (Social Media Sharing) -->
+    <meta property="og:title" content="My Web Projects | Adel Elgyoushy Portfolio" />
+    <meta property="og:description"
+        content="A collection of professional front-end, React, and UI/UX projects showcasing modern web development skills." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/portfolio-preview.png" />
+    <meta property="og:url" content="https://yourportfolio.com/projects.html" />
+<link rel="canonical" href="https://yourusername.github.io/projects.html">
+    <!-- ✅ Performance Optimization -->
+    <link rel="preload" href="css/projects.css" as="style">
+    <link rel="preload" href="css/projects.css" as="script">
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="dns-prefetch" href="https://unpkg.com">
+
+    <!-- ✅ External CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/projects.css">
+
+    <!-- ✅ Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">My Portfolio</a>
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Service</a></li>
+            <li class="active"><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Background Animation -->
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="projects-container">
+            <!-- Header -->
+            <div class="projects-header">
+                <h1>My <span style="color: #ff0000e5;">Projects</span></h1>
+                        <h2>Will be in 
+                    <span style="--i:4" data-text="Responsive Web">
+                        Responsive Web
+                    </span>
+                    <span style="--i:3" data-text="UI/UX Designs">
+                        UI/UX Designs
+                    </span>
+                    <span style="--i:2" data-text="Search Engine Optimization (SEO)">
+                       Search Engine Optimization (SEO)
+                    </span>
+                    <span style="--i:1" data-text="E-commerce Development">
+                        E-commerce Development
+                    </span>
+                </h2>
+                <p>Here are some of my recent projects that showcase my skills in front-end development, responsive
+                    design, and modern web technologies.</p>
+            </div>
+
+<div class="container">
+    <div class="projects-grid">
+        <!-- المشروع 1 -->
+        <div class="project-card">
+            <div class="project-video">
+                <video loop muted poster="img/AL-JAZIRA.png">
+                    <source src="projects-video/al-jazira.mp4" type="video/mp4">
+                </video>
+                <div class="video-controls">
+                    <button class="video-btn play-pause">▶</button>
+                    <button class="video-btn mute">🔊</button>
+                </div>
+                <div class="project-overlay">
+                    <div class="project-tech">
+                    </div>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">AL-JAZIRA</h3>
+                <p class="project-description">شركة الجزيرة لبيع وتأجير الأثاث</p>
+            </div>
+        </div>
+
+        <!-- المشروع 2 -->
+        <div class="project-card">
+            <div class="project-video">
+                <video loop muted poster="img/G-MOTORS.png">
+                    <source src="projects-video/g-motors.mp4" type="video/mp4">
+                    متصفحك لا يدعم تشغيل الفيديو.
+                </video>
+                <div class="video-controls">
+                    <button class="video-btn play-pause">▶</button>
+                    <button disabled class="video-btn mute">🔊</button>
+                </div>
+                <div class="project-overlay">
+                    <div class="project-tech">
+                    </div>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">G-MOTORS</h3>
+                <p class="project-description">منصة متخصصة في بيع السيارات الفاخرة مع عرض تفاعلي ومقارنة بين الموديلات</p>
+            </div>
+        </div>
+
+        <!-- المشروع 3 -->
+        <div class="project-card">
+            <div class="project-video">
+                <video loop muted poster="img/G-TECHGRID.png">
+                    <source src="projects-video/g-techgrid.mp4" type="video/mp4">
+                    متصفحك لا يدعم تشغيل الفيديو.
+                </video>
+                <div class="video-controls">
+                    <button class="video-btn play-pause">▶</button>
+                    <button class="video-btn mute">🔊</button>
+                </div>
+                <div class="project-overlay">
+                    <div class="project-tech">
+                    </div>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">G-TECHGRID</h3>
+                <p class="project-description">شبكة تقنية متكاملة تقدم حلولاً مبتكرة في مجال التكنولوجيا والبرمجيات</p>
+            </div>
+        </div>
+
+        <!-- المشروع 4 -->
+        <div class="project-card">
+            <div class="project-video">
+                <video loop muted poster="img/MC-ACADEMY.png">
+                    <source src="projects-video/mc-academy.mp4" type="video/mp4">
+                    متصفحك لا يدعم تشغيل الفيديو.
+                </video>
+                <div class="video-controls">
+                    <button class="video-btn play-pause">▶</button>
+                    <button class="video-btn mute">🔊</button>
+                </div>
+                <div class="project-overlay">
+                    <div class="project-tech">
+                    </div>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">MC-ACADEMY</h3>
+                <p class="project-description">أكاديمية تعليمية رقمية تقدم دورات متخصصة في البرمجة والتقنية عبر الإنترنت</p>
+            </div>
+        </div>
+
+        <!-- المشروع 5 -->
+        <div class="project-card">
+            <div class="project-video">
+                <video loop muted poster="img/QIMAM.png">
+                    <source src="projects-video/qimam.mp4" type="video/mp4">
+                    متصفحك لا يدعم تشغيل الفيديو.
+                </video>
+                <div class="video-controls">
+                    <button class="video-btn play-pause">▶</button>
+                    <button class="video-btn mute">🔊</button>
+                </div>
+                <div class="project-overlay">
+                    <div class="project-tech">
+                    </div>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">QIMAM</h3>
+                <p class="project-description">للخدمات اللوجستية المتكاملة واللاوابد</p>
+            </div>
+        </div>
+
+        <!-- المشروع 6 -->
+        <div class="project-card">
+            <div class="project-video">
+                <video loop muted poster="img/product management.png">
+                    <source src="projects-video/product management.mp4" type="video/mp4">
+                    متصفحك لا يدعم تشغيل الفيديو.
+                </video>
+                <div class="video-controls">
+                    <button class="video-btn play-pause">▶</button>
+                    <button class="video-btn mute">🔊</button>
+                </div>
+                <div class="project-overlay">
+                    <div class="project-tech">
+                    </div>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">PRODUCT MANAGEMENT</h3>
+                <p class="project-description">نظام متكامل لإدارة المنتجات والمخزون مع تحليلات متقدمة وتقارير مفصلة</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- Contact Buttons -->
+            <div class="btn-sci">
+                <a href="contact.html" class="btn">Start a Project</a>
+                <div class="sci">
+                    <a href="https://github.com/adelelgyoushy61-cmyk"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.facebook.com/share/1BjnrXHNQz/"><i class='bx bxl-facebook-circle'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/Projects.js"></script>
+</body>
+
+</html>
